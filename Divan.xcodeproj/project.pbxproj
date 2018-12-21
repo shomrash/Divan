@@ -13,6 +13,8 @@
 		613257EA21CBF4D200C1F2B7 /* Divan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 613257E821CBF4D200C1F2B7 /* Divan.xcdatamodeld */; };
 		613257EC21CBF4D300C1F2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613257EB21CBF4D300C1F2B7 /* Assets.xcassets */; };
 		613257EF21CBF4D300C1F2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613257ED21CBF4D300C1F2B7 /* LaunchScreen.storyboard */; };
+		613257F721CC20FF00C1F2B7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613257F621CC20FF00C1F2B7 /* MenuViewController.swift */; };
+		613257F921CC213A00C1F2B7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613257F821CC213A00C1F2B7 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		613257EB21CBF4D300C1F2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613257EE21CBF4D300C1F2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613257F021CBF4D300C1F2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613257F621CC20FF00C1F2B7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		613257F821CC213A00C1F2B7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		613257E021CBF4D100C1F2B7 /* Divan */ = {
 			isa = PBXGroup;
 			children = (
-				613257E121CBF4D200C1F2B7 /* AppDelegate.swift */,
-				613257E321CBF4D200C1F2B7 /* ViewController.swift */,
-				613257E521CBF4D200C1F2B7 /* Main.storyboard */,
-				613257EB21CBF4D300C1F2B7 /* Assets.xcassets */,
-				613257ED21CBF4D300C1F2B7 /* LaunchScreen.storyboard */,
 				613257F021CBF4D300C1F2B7 /* Info.plist */,
+				613257E121CBF4D200C1F2B7 /* AppDelegate.swift */,
+				613257F621CC20FF00C1F2B7 /* MenuViewController.swift */,
+				613257E321CBF4D200C1F2B7 /* ViewController.swift */,
+				613257EB21CBF4D300C1F2B7 /* Assets.xcassets */,
 				613257E821CBF4D200C1F2B7 /* Divan.xcdatamodeld */,
+				613257ED21CBF4D300C1F2B7 /* LaunchScreen.storyboard */,
+				613257E521CBF4D200C1F2B7 /* Main.storyboard */,
+				613257F821CC213A00C1F2B7 /* MenuTableViewCell.swift */,
 			);
 			path = Divan;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				613257E421CBF4D200C1F2B7 /* ViewController.swift in Sources */,
 				613257E221CBF4D200C1F2B7 /* AppDelegate.swift in Sources */,
 				613257EA21CBF4D200C1F2B7 /* Divan.xcdatamodeld in Sources */,
+				613257F721CC20FF00C1F2B7 /* MenuViewController.swift in Sources */,
+				613257F921CC213A00C1F2B7 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9JVY49D77;
 				INFOPLIST_FILE = Divan/Info.plist;
@@ -295,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShomDev.Divan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9JVY49D77;
 				INFOPLIST_FILE = Divan/Info.plist;
@@ -313,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShomDev.Divan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
