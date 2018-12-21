@@ -3,7 +3,7 @@
 #define CURRENT_LIMIT 750    // лимит по току в миллиамперах, автоматически управляет яркостью (пожалей свой блок питания!) 0 - выключить лимит
 
 
-#define DEBUG 1
+#define DEBUG 0
 
 #if (DEBUG == 0)
 #define NUM_LEDS 133    
